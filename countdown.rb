@@ -4,6 +4,7 @@ def countdown(n)
   until n == 0 do
     puts "#{n} SECOND(S)!"
     n -= 1
+    countdown_with_sleep
   end
   if n == 0
     return "HAPPY NEW YEAR!"
@@ -11,5 +12,5 @@ def countdown(n)
 end
 
 def countdown_with_sleep(n)
-  sleep 1
+  sleep n
 end
