@@ -2,12 +2,11 @@
 
 def countdown(n)
   until n == 0 do
-    if n == 1
-      puts "#{n} SECOND"
-      puts "HAPPY NEW YEAR"
-    else
-      puts "#{n} SECONDS"
-    end
+    puts "#{n} SECOND(S)!"
     n -= 1
+  end
+  if n == 0
+    puts "HAPPY NEW YEAR!"
+    return "HAPPY NEW YEAR!"
   end
 end
