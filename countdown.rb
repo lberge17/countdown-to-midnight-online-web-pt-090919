@@ -5,5 +5,5 @@ def countdown(n)
     n == 1 ? puts "#{n} SECOND" : puts "#{n} SECONDS"
     n += 1
   end
-  
+  if n == 10
 end
